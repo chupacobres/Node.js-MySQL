@@ -20,9 +20,12 @@ connection.connect(function (err) {
 function queryAllProducts() {
     connection.query("SELECT * FROM products", function (err, res) {
         if (err) throw err;
+        console.log("id" + " | " + "product_name" + " | " + "department_name" + " | " + "price" + " | " + "stock_quantity");
+        console.log("------------------------------------------------------------------");
         for (var i = 0; i < res.length; i++) {
-            console.log(res[i].item_id + " | " + res[i].product_name + " | " + res[i].department_name + " | " + res[i].price + " | " + res[i].stock_quantity);
+            console.log("------------------------------------------------------------------");
+            console.log(" " + res[i].item_id + " | " + res[i].product_name + " | " + res[i].department_name + " | " + res[i].price + " | " + res[i].stock_quantity);
         }
-        console.log("-----------------------------------");
+        console.log("------------------------------------------------------------------");
     });
 }

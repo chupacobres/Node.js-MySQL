@@ -62,3 +62,35 @@ INSERT INTO products (
   )
 VALUES
   ("Clase Azul", "Liquor", 85, 30);
+  INSERT INTO products (
+    product_name,
+    department_name,
+    price,
+    stock_quantity
+  )
+VALUES
+  ("Absolut", "Liquor", 32, 50);
+  INSERT INTO products (
+    product_name,
+    department_name,
+    price,
+    stock_quantity
+  )
+VALUES
+  ("Pietro Beretta", "Guns", 1200, 6);
+  INSERT INTO products (
+    product_name,
+    department_name,
+    price,
+    stock_quantity
+  )
+VALUES
+  ("G3A4", "Guns", 7200, 2);
+  INSERT INTO products (
+    product_name,
+    department_name,
+    price,
+    stock_quantity
+  )
+VALUES
+  ("Roquefort", "Delicatessen", 12, 70);
