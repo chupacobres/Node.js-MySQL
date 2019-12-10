@@ -1,11 +1,11 @@
 # Node.js-MySQL
 <p>A storefront Amazon like using MySQL and Node.js</p>
 A table inside the Schema Bamazon (running on the local host) contains these columns:
-1 item_id (unique)
-2 product_name
-3 department_name
-4 price
-5 stock_quantity
+- item_id (unique)
+- product_name
+- department_name
+- price
+- stock_quantity
 
 The table contains 10 products that a customer will be able to buy. Using the terminal as a UI, 2 questions are asked:
 - product to buy
